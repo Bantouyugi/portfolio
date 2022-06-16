@@ -1,0 +1,23 @@
+body{
+    background: #8a2be2; 
+}
+body ul{
+    font-family: Algerian;
+    backgrowund: #d9d7db;
+    color: aliceblue;
+   
+    
+}
+body ul li a{
+    color:rgba(238, 243, 245, 0.774);margin-top: 10px;
+}
+.back{
+    background-color: #17152b;height: 1000px;
+}
+.row{
+    color:rgba(238, 243, 245, 0.774);
+}
+.col-sm-8{
+    background-image: url(yugi.JPG);
+    
+}
