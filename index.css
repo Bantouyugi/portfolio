@@ -1,12 +1,35 @@
-body{
-    background: #8a2be2; 
-}
+ 
 body ul{
     font-family: Algerian;
     backgrowund: #d9d7db;
     color: aliceblue;
    
     
+}
+.marge{
+    margin: 10%;
+}
+.projet{
+    border: 1px solid green;
+    border-radius:0px 14px 0px 14px ;
+   padding: 15px 15px 15px 15px;
+   margin-top: 6px;
+    font-size:23px;
+    font-family: bell mt;
+    color: aliceblue;
+    align-content: center;
+    background: linear-gradient(rgb(201, 42, 166),pink)
+}
+.color{
+    color: #4c2be2;
+}
+
+.fas{
+    color: aliceblue;
+}
+.nav-link{
+    font-family: Algerian;
+    color: aliceblue;
 }
 body ul li a{
     color:rgba(238, 243, 245, 0.774);margin-top: 10px;
@@ -16,8 +39,58 @@ body ul li a{
 }
 .row{
     color:rgba(238, 243, 245, 0.774);
+    padding: 2%;
+
+}
+.texte{
+    font-family: bell mt;
+    color: azure;
+}
+.col-lg-3{
+    margin-left: 6%;
+    
+}
+.about-pic{
+    margin-left: 6em;
 }
 .col-sm-8{
     background-image: url(yugi.JPG);
     
 }
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  h1, h2, #btnVideo {
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+ 
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    margin-top: 30vh; 
+  }
+  
+  h2 { font-size: 3rem; }
+  
+  #btnVideo {
+    font-size: 1.5rem;
+    background: 0;
+    border: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .section-title{
+      color: aliceblue;
+  }
